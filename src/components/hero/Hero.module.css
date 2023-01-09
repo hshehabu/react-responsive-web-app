@@ -19,12 +19,12 @@
     border-radius: 50%;
     z-index: -99;
     position: absolute;
-    bottom: 20%;
+    bottom: 7rem;
     background: linear-gradient(135.7deg, #0bb5ff 14.09% ,#6dd3fe 83.83%);
 }
 .cart2{
     position: absolute;
-    bottom: 25%;
+    bottom: 10rem;
     right: -5%;
     display: flex;
     gap : 1rem;
@@ -62,7 +62,7 @@
     padding: 10px;
     border-radius: 50%;
     background:white;
-    border: 1px solid var(--black);
+    border: 5px solid var(--black);
 
 }
 .h_sides{
