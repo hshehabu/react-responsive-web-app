@@ -78,3 +78,6 @@
     font-size: .8rem;
     margin-top: 2rem;
 }
+.testimonial>:nth-child(4){
+   font-weight: bold;
+}
