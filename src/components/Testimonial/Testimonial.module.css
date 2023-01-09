@@ -1,4 +1,4 @@
-.testimonial{
+.testimonials{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,4 +34,47 @@
 }
 .wrapper>:nth-child(3){
     text-align: right;
+}
+.review{
+
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.carousel{
+    width: 100%;
+}
+.carousel2{
+    padding: 4rem;
+}
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: .5rem;
+    padding: .7rem;
+    gap: .7rem;
+    box-shadow: 0rem 1rem 3rem -50px #7d7d7d;
+    
+}
+.testimonial>hr{
+    height: 1px;
+    border: none;
+    background: rgb(198, 198, 198);
+    width:80%;
+}
+.testimonial>img{
+    position: absolute;
+     top: -1.5rem;   
+     width: 3rem;
+     left: 45%;
+   
+}
+.testimonial>:nth-child(2){
+    align-items: center;
+    font-size: .8rem;
+    margin-top: 2rem;
 }
