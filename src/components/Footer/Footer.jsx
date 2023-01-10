@@ -27,7 +27,7 @@ const Footer = () => {
             </span>
             <span className={css.pngLine}>
               <PhoneIcon className={css.icon} />
-              <a href="#">+251-900612194</a>
+              <a href="/">+251-900612194</a>
             </span>
             <span className={css.pngLine}>
               <InboxIcon className={css.icon} />
@@ -49,7 +49,7 @@ const Footer = () => {
             <span>Company</span>
             <span className={css.pngLine}>
               <UsersIcon className={css.icon} />
-              <a href="#">
+              <a href="/">
                 <p>About us</p>
               </a>
             </span>
