@@ -65,4 +65,13 @@
     bottom: -20%;
 
 }
+@media screen and (max-width:856px) {
+    .s-container .swiper{
+        width: 90%;
+    }
+    .s-container .swiper-button-prev, 
+     .s-container .swiper-button-next{
+    display: none;
+}
+}
 
