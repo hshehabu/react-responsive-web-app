@@ -47,5 +47,11 @@
         text-align: center;
 
     }
+    .wrapper{
+        width: 25rem;
+    }
+    .left{
+        text-align: center;
+    }
    
 }

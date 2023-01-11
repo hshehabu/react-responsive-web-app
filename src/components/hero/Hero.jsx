@@ -16,8 +16,7 @@ export default function Hero() {
           <span>Trendy Collection</span>
           <span>
             {" "}
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex quo
-            repudiandae, nemo, numquam enim,
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
           </span>
         </div>
       </div>

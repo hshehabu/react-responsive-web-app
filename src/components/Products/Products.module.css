@@ -71,7 +71,7 @@
         text-align: center;
     }
     .products{
-        width: 100%;
+        width: 50%;
         justify-content: center;
         align-items: center;
     }
@@ -79,7 +79,11 @@
     
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+   }
+   .list{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
    }
    
 }
