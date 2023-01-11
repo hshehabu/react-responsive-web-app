@@ -81,3 +81,23 @@
 .testimonial>:nth-child(4){
    font-weight: bold;
 }
+@media screen and (max-width : 640px) {
+    
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+    .container>:first-child{
+        text-align: center;
+    }
+    .carousel2{
+        padding: 2rem;
+        margin-top: 2rem;
+    }
+    
+}

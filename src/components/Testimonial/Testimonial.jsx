@@ -24,9 +24,20 @@ const Testimonial = () => {
       <div className={css.carousel}>
         <Swiper
           slidesPerView={3}
-          spaceBetween={40}
           slidesPerGroup={1}
+          spaceBetween={40}
           className={css.carousel2}
+          breakpoints={{
+            856: {
+              slidesPerView: 3,
+            },
+            640: {
+              slidesPerView: 2,
+            },
+            0: {
+              slidesPerView: 1,
+            },
+          }}
         >
           {TestimonialsData.map((data, i) => (
             <SwiperSlide>
